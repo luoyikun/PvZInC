@@ -1,0 +1,740 @@
+ PlantVSZombie
+
+ Timestamp is 5188aa0b (Tue May 07 15:15:23 2013)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00008ac6H .text                   CODE
+ 0002:00000000 00000424H .rdata                  DATA
+ 0002:00000424 00000000H .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000004 00000004H .CRT$XCZ                DATA
+ 0003:00000008 00000004H .CRT$XIA                DATA
+ 0003:0000000c 00000008H .CRT$XIC                DATA
+ 0003:00000014 00000004H .CRT$XIZ                DATA
+ 0003:00000018 00000004H .CRT$XPA                DATA
+ 0003:0000001c 00000004H .CRT$XPX                DATA
+ 0003:00000020 00000004H .CRT$XPZ                DATA
+ 0003:00000024 00000004H .CRT$XTA                DATA
+ 0003:00000028 00000004H .CRT$XTZ                DATA
+ 0003:00000030 00003778H .data                   DATA
+ 0003:000037a8 000126b8H .bss                    DATA
+ 0004:00000000 00000064H .idata$2                DATA
+ 0004:00000064 00000014H .idata$3                DATA
+ 0004:00000078 00000198H .idata$4                DATA
+ 0004:00000210 00000198H .idata$5                DATA
+ 0004:000003a8 000006e8H .idata$6                DATA
+ 0005:00000000 00000268H .rsrc$01                DATA
+ 0005:00000270 000033e8H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0001:00000000       ?windowInit@@YAXPAUHINSTANCE__@@@Z 00401000 f   bitmapLoad.obj
+ 0001:00000540       ?gifLoad@@YAXXZ            00401540 f   bitmapLoad.obj
+ 0001:00000b30       ?gameOver@@YA_NXZ          00401b30 f   bitmapLoad.obj
+ 0001:00000cc0       ??_GImage@Gdiplus@@UAEPAXI@Z 00401cc0 f i bitmapLoad.obj
+ 0001:00000cc0       ??_EImage@Gdiplus@@UAEPAXI@Z 00401cc0 f i bitmapLoad.obj
+ 0001:00000cf0       ?Clone@Image@Gdiplus@@UAEPAV12@XZ 00401cf0 f i bitmapLoad.obj
+ 0001:00000d40       ?killInit@@YAPAU__CARTOON@@XZ 00401d40 f   dieDeal.obj
+ 0001:00000d90       ?killActivate@@YAXHHHPAU__CARTOON@@@Z 00401d90 f   dieDeal.obj
+ 0001:00000dd0       ?dieInit@@YAXXZ            00401dd0 f   dieDeal.obj
+ 0001:00000e30       ?transparentPaint@@YAXPAUHDC__@@HHHHHHK@Z 00401e30 f   gameDraw.obj
+ 0001:00000e70       ?wordShow@@YAXPAUHDC__@@HHHPADH@Z 00401e70 f   gameDraw.obj
+ 0001:00000f00       ?backgroudDraw@@YAXXZ      00401f00 f   gameDraw.obj
+ 0001:00000fe0       ?cardDraw@@YAXXZ           00401fe0 f   gameDraw.obj
+ 0001:000010f0       ?cardZomDraw@@YAXXZ        004020f0 f   gameDraw.obj
+ 0001:00001230       ?plantDraw@@YAXXZ          00402230 f   gameDraw.obj
+ 0001:00001420       ?followPlantDraw@@YAXXZ    00402420 f   gameDraw.obj
+ 0001:00001490       ?shovelDraw@@YAXXZ         00402490 f   gameDraw.obj
+ 0001:000014d0       ?pointerDownDraw@@YAXXZ    004024d0 f   gameDraw.obj
+ 0001:00001550       ?timeDraw@@YAXXZ           00402550 f   gameDraw.obj
+ 0001:000015a0       ?timeZomDraw@@YAXXZ        004025a0 f   gameDraw.obj
+ 0001:00001600       ?sunDraw@@YAXXZ            00402600 f   gameDraw.obj
+ 0001:00001640       ?zomBrainDraw@@YAXXZ       00402640 f   gameDraw.obj
+ 0001:00001680       ?attackDraw@@YAXDDHH@Z     00402680 f   gameDraw.obj
+ 0001:00001710       ?zomDraw@@YAXXZ            00402710 f   gameDraw.obj
+ 0001:00001840       ?lawnMowerDraw@@YAXXZ      00402840 f   gameDraw.obj
+ 0001:000018a0       ?tragetDraw@@YAXXZ         004028a0 f   gameDraw.obj
+ 0001:00001920       ?tombstoneDraw@@YAXXZ      00402920 f   gameDraw.obj
+ 0001:000019b0       ?bulletDraw@@YAXXZ         004029b0 f   gameDraw.obj
+ 0001:00001a70       ?beatDraw@@YAXXZ           00402a70 f   gameDraw.obj
+ 0001:00001b80       ?killLoad@@YAXHHPAUHBITMAP__@@HHH@Z 00402b80 f   gameDraw.obj
+ 0001:00001bd0       ?killDraw@@YAXPAU__CARTOON@@PAUHBITMAP__@@HHHH@Z 00402bd0 f   gameDraw.obj
+ 0001:00001c30       ?cherryBombDraw@@YAXXZ     00402c30 f   gameDraw.obj
+ 0001:00001cb0       ?gameInterface@@YA_NXZ     00402cb0 f   gameDraw.obj
+ 0001:00001e40       ?picturerDraw@@YAXXZ       00402e40 f   gameDraw.obj
+ 0001:00001eb0       ?mapInit@@YAXXZ            00402eb0 f   gameInit.obj
+ 0001:00001f00       ?mapZomInit@@YAXXZ         00402f00 f   gameInit.obj
+ 0001:00001f50       ?cardInit@@YAXXZ           00402f50 f   gameInit.obj
+ 0001:00001fa0       ?cardZomInit@@YAXXZ        00402fa0 f   gameInit.obj
+ 0001:00001fe0       ?zombieInit@@YAXXZ         00402fe0 f   gameInit.obj
+ 0001:00002010       ?lawnMowerInit@@YAXXZ      00403010 f   gameInit.obj
+ 0001:00002040       ?tragetInit@@YAXXZ         00403040 f   gameInit.obj
+ 0001:00002070       ?bulletInit@@YAXXZ         00403070 f   gameInit.obj
+ 0001:00002190       ?allInit@@YAXXZ            00403190 f   gameInit.obj
+ 0001:000021f0       ?bulletHit@@YAXQAU__BULLETNATURE@@@Z 004031f0 f   hitDeal.obj
+ 0001:00002380       ?bulletHitZombie@@YAXXZ    00403380 f   hitDeal.obj
+ 0001:000023a0       ?zomHitPlant@@YAXXZ        004033a0 f   hitDeal.obj
+ 0001:00002700       ?moverActive@@YAXXZ        00403700 f   hitDeal.obj
+ 0001:00002750       ?moverHitZom@@YAXXZ        00403750 f   hitDeal.obj
+ 0001:000027f0       ?hitDeal@@YAXXZ            004037f0 f   hitDeal.obj
+ 0001:00002810       ?keyDeal@@YAXI@Z           00403810 f   keyDeal.obj
+ 0001:00002b70       _WinMain@16                00403b70 f   PlantVSZombie.obj
+ 0001:00002c40       ?MyRegisterClass@@YAGPAUHINSTANCE__@@@Z 00403c40 f   PlantVSZombie.obj
+ 0001:00002cd0       ?InitInstance@@YAHPAUHINSTANCE__@@H@Z 00403cd0 f   PlantVSZombie.obj
+ 0001:00002d40       ?mapClear@@YAXHH@Z         00403d40 f   PlantVSZombie.obj
+ 0001:00002d90       ?sunRandom@@YAXXZ          00403d90 f   PlantVSZombie.obj
+ 0001:00002e20       ?WndProc@@YGJPAUHWND__@@IIJ@Z 00403e20 f   PlantVSZombie.obj
+ 0001:000036f0       ?About@@YGJPAUHWND__@@IIJ@Z 004046f0 f   PlantVSZombie.obj
+ 0001:00003730       ?cardChoose@@YAXPAUHWND__@@IJ@Z 00404730 f   siteConfirm.obj
+ 0001:00003780       ?coordLocate@@YA?AUtagPOINT@@PAUHWND__@@IJ@Z 00404780 f   siteConfirm.obj
+ 0001:00003800       ?grasslandEnsure@@YADPAUHWND__@@IJ@Z 00404800 f   siteConfirm.obj
+ 0001:00003830       ?shovelEnsure@@YADPAUHWND__@@IJ@Z 00404830 f   siteConfirm.obj
+ 0001:00003860       ?cardEnsure@@YADPAUHWND__@@IJ@Z 00404860 f   siteConfirm.obj
+ 0001:00003880       ?timeDeal@@YA_NK@Z         00404880 f   timeDeal.obj
+ 0001:00003920       ?sunDeal@@YA_NK@Z          00404920 f   timeDeal.obj
+ 0001:00003970       ?zomDeal@@YA_NK@Z          00404970 f   timeDeal.obj
+ 0001:00003a00       ?zomAttackDeal@@YA_NK@Z    00404a00 f   timeDeal.obj
+ 0001:00003a40       ?sunRandomDeal@@YA_NK@Z    00404a40 f   timeDeal.obj
+ 0001:00003a80       ?zomCountDeal@@YA_NK@Z     00404a80 f   timeDeal.obj
+ 0001:00003ae0       ?bulletTime@@YAXK@Z        00404ae0 f   timeDeal.obj
+ 0001:00003b50       ?bulletDeal@@YAXK@Z        00404b50 f   timeDeal.obj
+ 0001:00003ba0       ?peaBulletHit@@YAXK@Z      00404ba0 f   timeDeal.obj
+ 0001:00003c10       ?cartoonDeal@@YA_NPAH00KD@Z 00404c10 f   timeDeal.obj
+ 0001:00003db0       ?killDeal@@YAXKPAU__CARTOON@@H@Z 00404db0 f   timeDeal.obj
+ 0001:00003df0       ?moverDeal@@YAXK@Z         00404df0 f   timeDeal.obj
+ 0001:00003e40       ?chomperDigestDeal@@YAXK@Z 00404e40 f   timeDeal.obj
+ 0001:00003e90       ?cherryBombDeal@@YAXK@Z    00404e90 f   timeDeal.obj
+ 0001:00003ee0       ?cherryDieDeal@@YAXK@Z     00404ee0 f   timeDeal.obj
+ 0001:00003f70       ?jalapenoDeal@@YAXK@Z      00404f70 f   timeDeal.obj
+ 0001:00003fd0       ?gameoverDeal@@YAXXZ       00404fd0 f   timeDeal.obj
+ 0001:00004020       ?gameProgress@@YA_NK@Z     00405020 f   timeDeal.obj
+ 0001:00004110       ?frameInto@@YA_NPAUHINSTANCE__@@K@Z 00405110 f   timeDeal.obj
+ 0001:00004140       _GdipLoadImageFromFile@8   00405140 f   gdiplus:gdiplus.dll
+ 0001:00004146       _GdipAlloc@4               00405146 f   gdiplus:gdiplus.dll
+ 0001:0000414c       _GdipFree@4                0040514c f   gdiplus:gdiplus.dll
+ 0001:00004152       _GdipDisposeImage@4        00405152 f   gdiplus:gdiplus.dll
+ 0001:00004158       _GdipCloneImage@8          00405158 f   gdiplus:gdiplus.dll
+ 0001:0000415e       _GdipDeleteGraphics@4      0040515e f   gdiplus:gdiplus.dll
+ 0001:00004164       _GdipDrawImageI@16         00405164 f   gdiplus:gdiplus.dll
+ 0001:0000416a       _GdipCreateFromHDC@8       0040516a f   gdiplus:gdiplus.dll
+ 0001:00004170       _GdipGetPropertyItem@16    00405170 f   gdiplus:gdiplus.dll
+ 0001:00004176       _GdipGetPropertyItemSize@12 00405176 f   gdiplus:gdiplus.dll
+ 0001:0000417c       _GdipImageGetFrameCount@12 0040517c f   gdiplus:gdiplus.dll
+ 0001:00004182       _GdipImageGetFrameDimensionsList@12 00405182 f   gdiplus:gdiplus.dll
+ 0001:00004188       _GdipImageGetFrameDimensionsCount@8 00405188 f   gdiplus:gdiplus.dll
+ 0001:0000418e       _GdipImageSelectActiveFrame@12 0040518e f   gdiplus:gdiplus.dll
+ 0001:00004194       _GdiplusStartup@12         00405194 f   gdiplus:gdiplus.dll
+ 0001:0000419a       _malloc                    0040519a f   LIBC:malloc.obj
+ 0001:000041ac       __nh_malloc                004051ac f   LIBC:malloc.obj
+ 0001:000041d8       __heap_alloc               004051d8 f   LIBC:malloc.obj
+ 0001:0000424c       _sprintf                   0040524c f   LIBC:sprintf.obj
+ 0001:0000429e       _rand                      0040529e f   LIBC:rand.obj
+ 0001:000042bc       ??3@YAXPAX@Z               004052bc f   LIBC:delete.obj
+ 0001:000042c7       ??2@YAPAXI@Z               004052c7 f   LIBC:new.obj
+ 0001:000042d5       _WinMainCRTStartup         004052d5 f   LIBC:wincrt0.obj
+ 0001:000043cb       __amsg_exit                004053cb f   LIBC:wincrt0.obj
+ 0001:00004414       __callnewh                 00405414 f   LIBC:handler.obj
+ 0001:0000442f       __GetLinkerVersion         0040542f f   LIBC:heapinit.obj
+ 0001:0000445c       ___heap_select             0040545c f   LIBC:heapinit.obj
+ 0001:000045a4       __heap_init                004055a4 f   LIBC:heapinit.obj
+ 0001:00004601       ___sbh_heap_init           00405601 f   LIBC:sbheap.obj
+ 0001:00004649       ___sbh_find_block          00405649 f   LIBC:sbheap.obj
+ 0001:00004674       ___sbh_free_block          00405674 f   LIBC:sbheap.obj
+ 0001:0000499d       ___sbh_alloc_block         0040599d f   LIBC:sbheap.obj
+ 0001:00004ca6       ___sbh_alloc_new_region    00405ca6 f   LIBC:sbheap.obj
+ 0001:00004d57       ___sbh_alloc_new_group     00405d57 f   LIBC:sbheap.obj
+ 0001:00004e52       ___old_sbh_new_region      00405e52 f   LIBC:sbheap.obj
+ 0001:00004f96       ___old_sbh_release_region  00405f96 f   LIBC:sbheap.obj
+ 0001:00004fec       ___old_sbh_decommit_pages  00405fec f   LIBC:sbheap.obj
+ 0001:000050ae       ___old_sbh_find_block      004060ae f   LIBC:sbheap.obj
+ 0001:00005105       ___old_sbh_free_block      00406105 f   LIBC:sbheap.obj
+ 0001:0000514a       ___old_sbh_alloc_block     0040614a f   LIBC:sbheap.obj
+ 0001:00005352       ___old_sbh_alloc_block_from_page 00406352 f   LIBC:sbheap.obj
+ 0001:00005476       __flsbuf                   00406476 f   LIBC:_flsbuf.obj
+ 0001:0000558b       __output                   0040658b f   LIBC:output.obj
+ 0001:00005df2       _free                      00406df2 f   LIBC:free.obj
+ 0001:00005e5b       __cinit                    00406e5b f   LIBC:crt0dat.obj
+ 0001:00005e88       _exit                      00406e88 f   LIBC:crt0dat.obj
+ 0001:00005e99       __exit                     00406e99 f   LIBC:crt0dat.obj
+ 0001:00005f5d       __XcptFilter               00406f5d f   LIBC:winxfltr.obj
+ 0001:000060e1       __wincmdln                 004070e1 f   LIBC:wincmdln.obj
+ 0001:00006139       __setenvp                  00407139 f   LIBC:stdenvp.obj
+ 0001:000061f2       __setargv                  004071f2 f   LIBC:stdargv.obj
+ 0001:0000643f       ___crtGetEnvironmentStringsA 0040743f f   LIBC:a_env.obj
+ 0001:00006571       __ioinit                   00407571 f   LIBC:ioinit.obj
+ 0001:0000671c       __global_unwind2           0040771c f   LIBC:exsup.obj
+ 0001:0000675e       __local_unwind2            0040775e f   LIBC:exsup.obj
+ 0001:000067b6       __NLG_Return2              004077b6 f   LIBC:exsup.obj
+ 0001:000067c6       __abnormal_termination     004077c6 f   LIBC:exsup.obj
+ 0001:000067e9       __NLG_Notify1              004077e9 f   LIBC:exsup.obj
+ 0001:000067f2       __NLG_Notify               004077f2 f   LIBC:exsup.obj
+ 0001:00006805       __NLG_Dispatch             00407805 f   LIBC:exsup.obj
+ 0001:00006814       __except_handler3          00407814 f   LIBC:exsup3.obj
+ 0001:000068d1       __seh_longjmp_unwind@4     004078d1 f   LIBC:exsup3.obj
+ 0001:000068ec       __FF_MSGBANNER             004078ec f   LIBC:crt0msg.obj
+ 0001:00006925       __NMSG_WRITE               00407925 f   LIBC:crt0msg.obj
+ 0001:00006a78       _strtol                    00407a78 f   LIBC:strtol.obj
+ 0001:00006cb0       _strchr                    00407cb0 f   LIBC:strchr.obj
+ 0001:00006cb6       ___from_strstr_to_strchr   00407cb6 f   LIBC:strchr.obj
+ 0001:00006d70       _strstr                    00407d70 f   LIBC:strstr.obj
+ 0001:00006df0       _strncmp                   00407df0 f   LIBC:strncmp.obj
+ 0001:00006e30       __alloca_probe             00407e30 f   LIBC:chkstk.obj
+ 0001:00006e30       __chkstk                   00407e30 f   LIBC:chkstk.obj
+ 0001:00006e60       _memmove                   00407e60 f   LIBC:memmove.obj
+ 0001:000071a0       _memset                    004081a0 f   LIBC:memset.obj
+ 0001:000071f8       __lseek                    004081f8 f   LIBC:lseek.obj
+ 0001:00007292       __write                    00408292 f   LIBC:write.obj
+ 0001:0000743f       __getbuf                   0040843f f   LIBC:_getbuf.obj
+ 0001:00007483       __isatty                   00408483 f   LIBC:isatty.obj
+ 0001:000074a9       ___initstdio               004084a9 f   LIBC:_file.obj
+ 0001:0000754e       ___endstdio                0040854e f   LIBC:_file.obj
+ 0001:00007570       _strlen                    00408570 f   LIBC:strlen.obj
+ 0001:000075eb       _wctomb                    004085eb f   LIBC:wctomb.obj
+ 0001:00007660       __aulldiv                  00408660 f   LIBC:ulldiv.obj
+ 0001:000076d0       __aullrem                  004086d0 f   LIBC:ullrem.obj
+ 0001:00007745       __ismbblead                00408745 f   LIBC:ismbbyte.obj
+ 0001:00007787       __setmbcp                  00408787 f   LIBC:mbctype.obj
+ 0001:00007b4b       ___initmbctable            00408b4b f   LIBC:mbctype.obj
+ 0001:00007b70       _strcpy                    00408b70 f   LIBC:strcat.obj
+ 0001:00007b80       _strcat                    00408b80 f   LIBC:strcat.obj
+ 0001:00007c60       _memcpy                    00408c60 f   LIBC:memcpy.obj
+ 0001:00007f95       ___crtMessageBoxA          00408f95 f   LIBC:crtmbox.obj
+ 0001:00008020       _strncpy                   00409020 f   LIBC:strncpy.obj
+ 0001:0000811e       _toupper                   0040911e f   LIBC:toupper.obj
+ 0001:000081ea       __isctype                  004091ea f   LIBC:isctype.obj
+ 0001:0000825f       __dosmaperr                0040925f f   LIBC:dosmap.obj
+ 0001:000082c6       __free_osfhnd              004092c6 f   LIBC:osfinfo.obj
+ 0001:00008340       __get_osfhandle            00409340 f   LIBC:osfinfo.obj
+ 0001:0000837d       _calloc                    0040937d f   LIBC:calloc.obj
+ 0001:0000842e       __fcloseall                0040942e f   LIBC:closeall.obj
+ 0001:00008486       _fflush                    00409486 f   LIBC:fflush.obj
+ 0001:000084c1       __flush                    004094c1 f   LIBC:fflush.obj
+ 0001:0000851d       __flushall                 0040951d f   LIBC:fflush.obj
+ 0001:00008593       __fptrap                   00409593 f   LIBC:crt0fp.obj
+ 0001:0000859c       ___crtLCMapStringA         0040959c f   LIBC:a_map.obj
+ 0001:000087eb       ___crtGetStringTypeA       004097eb f   LIBC:a_str.obj
+ 0001:00008934       _fclose                    00409934 f   LIBC:fclose.obj
+ 0001:0000898a       __commit                   0040998a f   LIBC:commit.obj
+ 0001:000089e1       __close                    004099e1 f   LIBC:close.obj
+ 0001:00008a94       __freebuf                  00409a94 f   LIBC:_freebuf.obj
+ 0001:00008ac0       _RtlUnwind@16              00409ac0 f   kernel32:KERNEL32.dll
+ 0002:00000000       ??_7Image@Gdiplus@@6B@     0040a000     bitmapLoad.obj
+ 0002:00000008       _FrameDimensionTime        0040a008     gdiplus:imagingguds.obj
+ 0002:00000024       ??_C@_0BH@PHHF@__GLOBAL_HEAP_SELECTED?$AA@ 0040a024     LIBC:heapinit.obj
+ 0002:0000003c       ??_C@_0BF@BBGL@__MSVCRT_HEAP_SELECT?$AA@ 0040a03c     LIBC:heapinit.obj
+ 0002:00000054       ___lookuptable             0040a054     LIBC:output.obj
+ 0002:000000b0       ??_C@_1O@POHA@?$AA?$CI?$AAn?$AAu?$AAl?$AAl?$AA?$CJ?$AA?$AA@ 0040a0b0     LIBC:output.obj
+ 0002:000000c0       ??_C@_06ONKE@?$CInull?$CJ?$AA@ 0040a0c0     LIBC:output.obj
+ 0002:000000c8       ??_C@_0P@GGKG@runtime?5error?5?$AA@ 0040a0c8     LIBC:crt0msg.obj
+ 0002:000000d8       ??_C@_02PIMC@?$AN?6?$AA@   0040a0d8     LIBC:crt0msg.obj
+ 0002:000000dc       ??_C@_0O@DELO@TLOSS?5error?$AN?6?$AA@ 0040a0dc     LIBC:crt0msg.obj
+ 0002:000000ec       ??_C@_0N@OMLL@SING?5error?$AN?6?$AA@ 0040a0ec     LIBC:crt0msg.obj
+ 0002:000000fc       ??_C@_0P@OJAK@DOMAIN?5error?$AN?6?$AA@ 0040a0fc     LIBC:crt0msg.obj
+ 0002:0000010c       ??_C@_0CF@EANP@R6028?$AN?6?9?5unable?5to?5initialize?5he@ 0040a10c     LIBC:crt0msg.obj
+ 0002:00000134       ??_C@_0DF@ECGN@R6027?$AN?6?9?5not?5enough?5space?5for?5lo@ 0040a134     LIBC:crt0msg.obj
+ 0002:0000016c       ??_C@_0DF@FKAC@R6026?$AN?6?9?5not?5enough?5space?5for?5st@ 0040a16c     LIBC:crt0msg.obj
+ 0002:000001a4       ??_C@_0CG@DPMN@R6025?$AN?6?9?5pure?5virtual?5function?5c@ 0040a1a4     LIBC:crt0msg.obj
+ 0002:000001cc       ??_C@_0DF@CKIP@R6024?$AN?6?9?5not?5enough?5space?5for?5_o@ 0040a1cc     LIBC:crt0msg.obj
+ 0002:00000204       ??_C@_0CJ@GGOE@R6019?$AN?6?9?5unable?5to?5open?5console?5@ 0040a204     LIBC:crt0msg.obj
+ 0002:00000230       ??_C@_0CB@LBOB@R6018?$AN?6?9?5unexpected?5heap?5error?$AN?6@ 0040a230     LIBC:crt0msg.obj
+ 0002:00000254       ??_C@_0CN@FPEG@R6017?$AN?6?9?5unexpected?5multithread?5@ 0040a254     LIBC:crt0msg.obj
+ 0002:00000284       ??_C@_0CM@OBIC@R6016?$AN?6?9?5not?5enough?5space?5for?5th@ 0040a284     LIBC:crt0msg.obj
+ 0002:000002b0       ??_C@_0CB@HPAL@?$AN?6abnormal?5program?5termination?$AN?6@ 0040a2b0     LIBC:crt0msg.obj
+ 0002:000002d4       ??_C@_0CM@JOOB@R6009?$AN?6?9?5not?5enough?5space?5for?5en@ 0040a2d4     LIBC:crt0msg.obj
+ 0002:00000300       ??_C@_0CK@OIBL@R6008?$AN?6?9?5not?5enough?5space?5for?5ar@ 0040a300     LIBC:crt0msg.obj
+ 0002:0000032c       ??_C@_0CF@LKPB@R6002?$AN?6?9?5floating?5point?5not?5load@ 0040a32c     LIBC:crt0msg.obj
+ 0002:00000354       ??_C@_0CF@JPDF@Microsoft?5Visual?5C?$CL?$CL?5Runtime?5Lib@ 0040a354     LIBC:crt0msg.obj
+ 0002:0000037c       ??_C@_02JJJH@?6?6?$AA@     0040a37c     LIBC:crt0msg.obj
+ 0002:00000380       ??_C@_0BK@DEOK@Runtime?5Error?$CB?6?6Program?3?5?$AA@ 0040a380     LIBC:crt0msg.obj
+ 0002:0000039c       ??_C@_03NAME@?4?4?4?$AA@   0040a39c     LIBC:crt0msg.obj
+ 0002:000003a0       ??_C@_0BH@NNCD@?$DMprogram?5name?5unknown?$DO?$AA@ 0040a3a0     LIBC:crt0msg.obj
+ 0002:000003b8       ??_C@_0BD@NJFP@GetLastActivePopup?$AA@ 0040a3b8     LIBC:crtmbox.obj
+ 0002:000003cc       ??_C@_0BA@GILI@GetActiveWindow?$AA@ 0040a3cc     LIBC:crtmbox.obj
+ 0002:000003dc       ??_C@_0M@PKCK@MessageBoxA?$AA@ 0040a3dc     LIBC:crtmbox.obj
+ 0002:000003e8       ??_C@_0L@HKL@user32?4dll?$AA@ 0040a3e8     LIBC:crtmbox.obj
+ 0002:000003f4       ??_C@_01A@?$AA?$AA@        0040a3f4     LIBC:a_map.obj
+ 0002:000003f8       ??_C@_13A@?$AA?$AA?$AA?$AA@ 0040a3f8     LIBC:a_map.obj
+ 0003:00000000       ___xc_a                    0040b000     LIBC:crt0init.obj
+ 0003:00000004       ___xc_z                    0040b004     LIBC:crt0init.obj
+ 0003:00000008       ___xi_a                    0040b008     LIBC:crt0init.obj
+ 0003:00000014       ___xi_z                    0040b014     LIBC:crt0init.obj
+ 0003:00000018       ___xp_a                    0040b018     LIBC:crt0init.obj
+ 0003:00000020       ___xp_z                    0040b020     LIBC:crt0init.obj
+ 0003:00000024       ___xt_a                    0040b024     LIBC:crt0init.obj
+ 0003:00000028       ___xt_z                    0040b028     LIBC:crt0init.obj
+ 0003:00000030       ??_C@_0BF@OOEN@tu?1game?1menuexit?4bmp?$AA@ 0040b030     bitmapLoad.obj
+ 0003:00000048       ??_C@_0BD@FEGD@tu?1game?1replay?4bmp?$AA@ 0040b048     bitmapLoad.obj
+ 0003:0000005c       ??_C@_0BP@HMCC@tu?1game?1Credits_ZombieNote?4bmp?$AA@ 0040b05c     bitmapLoad.obj
+ 0003:0000007c       ??_C@_0BH@BHJH@tu?1game?1ZombiesWon?4bmp?$AA@ 0040b07c     bitmapLoad.obj
+ 0003:00000094       ??_C@_0CC@JLJL@tu?1cartoon?1NewspaperZombieDie?4bm@ 0040b094     bitmapLoad.obj
+ 0003:000000b8       ??_C@_0CF@DCO@tu?1cartoon?1PoleVaultingZombieDie@ 0040b0b8     bitmapLoad.obj
+ 0003:000000e0       ??_C@_0CG@DAOA@tu?1cartoon?1PoleVaultingZombieJum@ 0040b0e0     bitmapLoad.obj
+ 0003:00000108       ??_C@_0BE@NLHP@tu?1cartoon?1Boom?4bmp?$AA@ 0040b108     bitmapLoad.obj
+ 0003:0000011c       ??_C@_0BH@BJEA@tu?1cartoon?1BoomDie?4bmp?$AA@ 0040b11c     bitmapLoad.obj
+ 0003:00000134       ??_C@_0BO@LOLN@tu?1cartoon?1JalapenoAttack?4bmp?$AA@ 0040b134     bitmapLoad.obj
+ 0003:00000154       ??_C@_0BM@HFDM@tu?1cartoon?1SquashAttack?4bmp?$AA@ 0040b154     bitmapLoad.obj
+ 0003:00000170       ??_C@_0BN@MCBK@tu?1cartoon?1ChomperAttack?4bmp?$AA@ 0040b170     bitmapLoad.obj
+ 0003:00000190       ??_C@_0BJ@KCI@tu?1cartoon?1ZombieDie?4bmp?$AA@ 0040b190     bitmapLoad.obj
+ 0003:000001ac       ??_C@_0BJ@DDFP@tu?1tool?1PeaBulletHit?4bmp?$AA@ 0040b1ac     bitmapLoad.obj
+ 0003:000001c8       ??_C@_0BD@BGBE@tu?1tool?1bullet?4bmp?$AA@ 0040b1c8     bitmapLoad.obj
+ 0003:000001dc       ??_C@_0BO@JLJK@tu?1CardZom?1TombstoneSmall?4bmp?$AA@ 0040b1dc     bitmapLoad.obj
+ 0003:000001fc       ??_C@_0BM@JAOK@tu?1CardZom?1TombstoneBig?4bmp?$AA@ 0040b1fc     bitmapLoad.obj
+ 0003:00000218       ??_C@_0BL@CANG@tu?1CardZom?1TargetSmall?4bmp?$AA@ 0040b218     bitmapLoad.obj
+ 0003:00000234       ??_C@_0BJ@DICI@tu?1CardZom?1TargetBig?4bmp?$AA@ 0040b234     bitmapLoad.obj
+ 0003:00000250       ??_C@_0BG@NMIM@tu?1tool?1LawnMower?4bmp?$AA@ 0040b250     bitmapLoad.obj
+ 0003:00000268       ??_C@_0BH@OPFL@tu?1tool?1CursorCard?4bmp?$AA@ 0040b268     bitmapLoad.obj
+ 0003:00000280       ??_C@_0BE@PBCD@tu?1tool?1ZomBack?4bmp?$AA@ 0040b280     bitmapLoad.obj
+ 0003:00000294       ??_C@_0DB@HALB@tu?1CardZom?1blackCard?1GCardPoleVa@ 0040b294     bitmapLoad.obj
+ 0003:000002c8       ??_C@_0CO@PILB@tu?1CardZom?1blackCard?1GCardNewspa@ 0040b2c8     bitmapLoad.obj
+ 0003:000002f8       ??_C@_0CP@HDJF@tu?1CardZom?1blackCard?1GCardBucket@ 0040b2f8     bitmapLoad.obj
+ 0003:00000328       ??_C@_0CN@DCFC@tu?1CardZom?1blackCard?1GCardConehe@ 0040b328     bitmapLoad.obj
+ 0003:00000358       ??_C@_0CJ@DMMG@tu?1CardZom?1blackCard?1GCardFlagZo@ 0040b358     bitmapLoad.obj
+ 0003:00000384       ??_C@_0CF@EHF@tu?1CardZom?1blackCard?1GCardZombie@ 0040b384     bitmapLoad.obj
+ 0003:000003ac       ??_C@_0CI@KBAI@tu?1CardZom?1blackCard?1GTombstoneC@ 0040b3ac     bitmapLoad.obj
+ 0003:000003d4       ??_C@_0CG@ONCP@tu?1CardZom?1CardPoleVaultingZombi@ 0040b3d4     bitmapLoad.obj
+ 0003:000003fc       ??_C@_0CD@GMHB@tu?1CardZom?1CardNewspaperZombie?4b@ 0040b3fc     bitmapLoad.obj
+ 0003:00000420       ??_C@_0CE@DFAB@tu?1CardZom?1CardBucketheadZombie?4@ 0040b420     bitmapLoad.obj
+ 0003:00000444       ??_C@_0CC@PCNN@tu?1CardZom?1CardConeheadZombie?4bm@ 0040b444     bitmapLoad.obj
+ 0003:00000468       ??_C@_0BO@PAGO@tu?1CardZom?1CardFlagZombie?4bmp?$AA@ 0040b468     bitmapLoad.obj
+ 0003:00000488       ??_C@_0BK@NFKL@tu?1CardZom?1CardZombie?4bmp?$AA@ 0040b488     bitmapLoad.obj
+ 0003:000004a4       ??_C@_0BN@JCB@tu?1CardZom?1TombstoneCard?4bmp?$AA@ 0040b4a4     bitmapLoad.obj
+ 0003:000004c4       ??_C@_0BD@HLMA@tu?1tool?1Shovel?4bmp?$AA@ 0040b4c4     bitmapLoad.obj
+ 0003:000004d8       ??_C@_0BH@HEJD@tu?1tool?1ShovelBack?4bmp?$AA@ 0040b4d8     bitmapLoad.obj
+ 0003:000004f0       ??_C@_0BE@JELI@tu?1tool?1SunBack?4bmp?$AA@ 0040b4f0     bitmapLoad.obj
+ 0003:00000504       ??_C@_0BI@PLOF@tu?1card?1CherryBombG?4bmp?$AA@ 0040b504     bitmapLoad.obj
+ 0003:0000051c       ??_C@_0BG@FBPF@tu?1card?1JalapenoG?4bmp?$AA@ 0040b51c     bitmapLoad.obj
+ 0003:00000534       ??_C@_0BE@OKMM@tu?1card?1SquashG?4bmp?$AA@ 0040b534     bitmapLoad.obj
+ 0003:00000548       ??_C@_0BG@NGH@tu?1card?1RepeaterG?4bmp?$AA@ 0040b548     bitmapLoad.obj
+ 0003:00000560       ??_C@_0BF@LDHC@tu?1card?1ChomperG?4bmp?$AA@ 0040b560     bitmapLoad.obj
+ 0003:00000578       ??_C@_0BF@NELN@tu?1card?1WallNutG?4bmp?$AA@ 0040b578     bitmapLoad.obj
+ 0003:00000590       ??_C@_0BH@MAFO@tu?1card?1SunFlowerG?4bmp?$AA@ 0040b590     bitmapLoad.obj
+ 0003:000005a8       ??_C@_0BI@HAMK@tu?1card?1PeaShooterG?4bmp?$AA@ 0040b5a8     bitmapLoad.obj
+ 0003:000005c0       ??_C@_0BH@DAKK@tu?1card?1CherryBomb?4bmp?$AA@ 0040b5c0     bitmapLoad.obj
+ 0003:000005d8       ??_C@_0BF@CABJ@tu?1card?1Jalapeno?4bmp?$AA@ 0040b5d8     bitmapLoad.obj
+ 0003:000005f0       ??_C@_0BD@BJFJ@tu?1card?1Squash?4bmp?$AA@ 0040b5f0     bitmapLoad.obj
+ 0003:00000604       ??_C@_0BF@LCOD@tu?1card?1Repeater?4bmp?$AA@ 0040b604     bitmapLoad.obj
+ 0003:0000061c       ??_C@_0BE@KHIJ@tu?1card?1Chomper?4bmp?$AA@ 0040b61c     bitmapLoad.obj
+ 0003:00000630       ??_C@_0BE@GIIP@tu?1card?1WallNut?4bmp?$AA@ 0040b630     bitmapLoad.obj
+ 0003:00000644       ??_C@_0BG@ILJE@tu?1card?1SunFlower?4bmp?$AA@ 0040b644     bitmapLoad.obj
+ 0003:0000065c       ??_C@_0BH@BPII@tu?1card?1PeaShooter?4bmp?$AA@ 0040b65c     bitmapLoad.obj
+ 0003:00000674       ??_C@_0BI@LHBK@tu?1tool?1Background1?4bmp?$AA@ 0040b674     bitmapLoad.obj
+ 0003:0000068c       ??_C@_1GC@KPKI@?$AAt?$AAu?$AA?2?$AAP?$AAo?$AAl?$AAe?$AAV?$AAa?$AAu?$AAl?$AAt?$AAi?$AAn?$AAg?$AAZ?$AAo?$AAm?$AAb?$AAi@ 0040b68c     bitmapLoad.obj
+ 0003:000006f0       ??_C@_1GG@LDIG@?$AAt?$AAu?$AA?2?$AAP?$AAo?$AAl?$AAe?$AAV?$AAa?$AAu?$AAl?$AAt?$AAi?$AAn?$AAg?$AAZ?$AAo?$AAm?$AAb?$AAi@ 0040b6f0     bitmapLoad.obj
+ 0003:00000758       ??_C@_1FK@HAHH@?$AAt?$AAu?$AA?2?$AAP?$AAo?$AAl?$AAe?$AAV?$AAa?$AAu?$AAl?$AAt?$AAi?$AAn?$AAg?$AAZ?$AAo?$AAm?$AAb?$AAi@ 0040b758     bitmapLoad.obj
+ 0003:000007b4       ??_C@_1EC@DHBK@?$AAt?$AAu?$AA?2?$AAN?$AAe?$AAw?$AAs?$AAp?$AAa?$AAp?$AAe?$AAr?$AAZ?$AAo?$AAm?$AAb?$AAi?$AAe?$AA?2?$AAH@ 0040b7b4     bitmapLoad.obj
+ 0003:000007f8       ??_C@_1EC@NNJF@?$AAt?$AAu?$AA?2?$AAN?$AAe?$AAw?$AAs?$AAp?$AAa?$AAp?$AAe?$AAr?$AAZ?$AAo?$AAm?$AAb?$AAi?$AAe?$AA?2?$AAH@ 0040b7f8     bitmapLoad.obj
+ 0003:0000083c       ??_C@_1EG@KLFE@?$AAt?$AAu?$AA?2?$AAN?$AAe?$AAw?$AAs?$AAp?$AAa?$AAp?$AAe?$AAr?$AAZ?$AAo?$AAm?$AAb?$AAi?$AAe?$AA?2?$AAH@ 0040b83c     bitmapLoad.obj
+ 0003:00000884       ??_C@_1EG@EBNL@?$AAt?$AAu?$AA?2?$AAN?$AAe?$AAw?$AAs?$AAp?$AAa?$AAp?$AAe?$AAr?$AAZ?$AAo?$AAm?$AAb?$AAi?$AAe?$AA?2?$AAH@ 0040b884     bitmapLoad.obj
+ 0003:000008cc       ??_C@_1CA@JLKP@?$AAt?$AAu?$AA?2?$AAt?$AAo?$AAo?$AAl?$AA?2?$AAS?$AAu?$AAn?$AA?4?$AAg?$AAi?$AAf?$AA?$AA@ 0040b8cc     bitmapLoad.obj
+ 0003:000008ec       ??_C@_1DA@EDOF@?$AAt?$AAu?$AA?2?$AAt?$AAo?$AAo?$AAl?$AA?2?$AAP?$AAo?$AAi?$AAn?$AAt?$AAe?$AAr?$AAD?$AAo?$AAw?$AAn?$AA?4@ 0040b8ec     bitmapLoad.obj
+ 0003:0000091c       ??_C@_1FO@HDEK@?$AAt?$AAu?$AA?2?$AAB?$AAu?$AAc?$AAk?$AAe?$AAt?$AAh?$AAe?$AAa?$AAd?$AAZ?$AAo?$AAm?$AAb?$AAi?$AAe?$AA?2@ 0040b91c     bitmapLoad.obj
+ 0003:0000097c       ??_C@_1FC@FCND@?$AAt?$AAu?$AA?2?$AAB?$AAu?$AAc?$AAk?$AAe?$AAt?$AAh?$AAe?$AAa?$AAd?$AAZ?$AAo?$AAm?$AAb?$AAi?$AAe?$AA?2@ 0040b97c     bitmapLoad.obj
+ 0003:000009d0       ??_C@_1FG@DCAC@?$AAt?$AAu?$AA?2?$AAC?$AAo?$AAn?$AAe?$AAh?$AAe?$AAa?$AAd?$AAZ?$AAo?$AAm?$AAb?$AAi?$AAe?$AA?2?$AAC?$AAo@ 0040b9d0     bitmapLoad.obj
+ 0003:00000a28       ??_C@_1EK@KOOM@?$AAt?$AAu?$AA?2?$AAC?$AAo?$AAn?$AAe?$AAh?$AAe?$AAa?$AAd?$AAZ?$AAo?$AAm?$AAb?$AAi?$AAe?$AA?2?$AAC?$AAo@ 0040ba28     bitmapLoad.obj
+ 0003:00000a74       ??_C@_1EG@BOHL@?$AAt?$AAu?$AA?2?$AAF?$AAl?$AAa?$AAg?$AAZ?$AAo?$AAm?$AAb?$AAi?$AAe?$AA?2?$AAF?$AAl?$AAa?$AAg?$AAZ?$AAo@ 0040ba74     bitmapLoad.obj
+ 0003:00000abc       ??_C@_1DK@PHKA@?$AAt?$AAu?$AA?2?$AAF?$AAl?$AAa?$AAg?$AAZ?$AAo?$AAm?$AAb?$AAi?$AAe?$AA?2?$AAF?$AAl?$AAa?$AAg?$AAZ?$AAo@ 0040babc     bitmapLoad.obj
+ 0003:00000af8       ??_C@_1DG@FGB@?$AAt?$AAu?$AA?2?$AAZ?$AAo?$AAm?$AAb?$AAi?$AAe?$AA?2?$AAZ?$AAo?$AAm?$AAb?$AAi?$AAe?$AAA?$AAt?$AAt?$AAa@ 0040baf8     bitmapLoad.obj
+ 0003:00000b30       ??_C@_1CK@BGKE@?$AAt?$AAu?$AA?2?$AAZ?$AAo?$AAm?$AAb?$AAi?$AAe?$AA?2?$AAZ?$AAo?$AAm?$AAb?$AAi?$AAe?$AA?4?$AAg?$AAi?$AAf@ 0040bb30     bitmapLoad.obj
+ 0003:00000b5c       ??_C@_1DK@FFNA@?$AAt?$AAu?$AA?2?$AAC?$AAh?$AAe?$AAr?$AAr?$AAy?$AAB?$AAo?$AAm?$AAb?$AA?2?$AAC?$AAh?$AAe?$AAr?$AAr?$AAy@ 0040bb5c     bitmapLoad.obj
+ 0003:00000b98       ??_C@_1DC@NNCJ@?$AAt?$AAu?$AA?2?$AAJ?$AAa?$AAl?$AAa?$AAp?$AAe?$AAn?$AAo?$AA?2?$AAJ?$AAa?$AAl?$AAa?$AAp?$AAe?$AAn?$AAo@ 0040bb98     bitmapLoad.obj
+ 0003:00000bcc       ??_C@_1CK@OIAC@?$AAt?$AAu?$AA?2?$AAS?$AAq?$AAu?$AAa?$AAs?$AAh?$AA?2?$AAS?$AAq?$AAu?$AAa?$AAs?$AAh?$AA?4?$AAg?$AAi?$AAf@ 0040bbcc     bitmapLoad.obj
+ 0003:00000bf8       ??_C@_1CA@DECJ@?$AAt?$AAu?$AA?2?$AAR?$AAe?$AAp?$AAe?$AAa?$AAt?$AAe?$AAr?$AA?4?$AAg?$AAi?$AAf?$AA?$AA@ 0040bbf8     bitmapLoad.obj
+ 0003:00000c18       ??_C@_1DK@EFHJ@?$AAt?$AAu?$AA?2?$AAC?$AAh?$AAo?$AAm?$AAp?$AAe?$AAr?$AA?2?$AAC?$AAh?$AAo?$AAm?$AAp?$AAe?$AAr?$AAD?$AAi@ 0040bc18     bitmapLoad.obj
+ 0003:00000c54       ??_C@_1DK@KIIL@?$AAt?$AAu?$AA?2?$AAC?$AAh?$AAo?$AAm?$AAp?$AAe?$AAr?$AA?2?$AAC?$AAh?$AAo?$AAm?$AAp?$AAe?$AAr?$AAA?$AAt@ 0040bc54     bitmapLoad.obj
+ 0003:00000c90       ??_C@_1CO@HMBA@?$AAt?$AAu?$AA?2?$AAC?$AAh?$AAo?$AAm?$AAp?$AAe?$AAr?$AA?2?$AAC?$AAh?$AAo?$AAm?$AAp?$AAe?$AAr?$AA?4?$AAg@ 0040bc90     bitmapLoad.obj
+ 0003:00000cc0       ??_C@_1EA@CIJB@?$AAt?$AAu?$AA?2?$AAW?$AAa?$AAl?$AAl?$AAN?$AAu?$AAt?$AA?2?$AAW?$AAa?$AAl?$AAl?$AAn?$AAu?$AAt?$AA_?$AAc@ 0040bcc0     bitmapLoad.obj
+ 0003:00000d00       ??_C@_1EA@BHAB@?$AAt?$AAu?$AA?2?$AAW?$AAa?$AAl?$AAl?$AAN?$AAu?$AAt?$AA?2?$AAW?$AAa?$AAl?$AAl?$AAn?$AAu?$AAt?$AA_?$AAc@ 0040bd00     bitmapLoad.obj
+ 0003:00000d40       ??_C@_1CO@BKBE@?$AAt?$AAu?$AA?2?$AAW?$AAa?$AAl?$AAl?$AAN?$AAu?$AAt?$AA?2?$AAW?$AAa?$AAl?$AAl?$AAN?$AAu?$AAt?$AA?4?$AAg@ 0040bd40     bitmapLoad.obj
+ 0003:00000d70       ??_C@_1CC@FAAJ@?$AAt?$AAu?$AA?2?$AAS?$AAu?$AAn?$AAF?$AAl?$AAo?$AAw?$AAe?$AAr?$AA?4?$AAg?$AAi?$AAf?$AA?$AA@ 0040bd70     bitmapLoad.obj
+ 0003:00000d94       ??_C@_1CE@BLHD@?$AAt?$AAu?$AA?2?$AAP?$AAe?$AAa?$AAs?$AAh?$AAo?$AAo?$AAt?$AAe?$AAr?$AA?4?$AAg?$AAi?$AAf?$AA?$AA@ 0040bd94     bitmapLoad.obj
+ 0003:00000db8       ?iShovelXpos@@3HA          0040bdb8     gameDraw.obj
+ 0003:00000dbc       ?iShovelYpos@@3HA          0040bdbc     gameDraw.obj
+ 0003:00000dc0       ??_C@_02MECO@?$CFd?$AA@    0040bdc0     gameDraw.obj
+ 0003:00000dc4       ?iZomCount@@3HA            0040bdc4     gameInit.obj
+ 0003:00000dc8       ?iSunCount@@3HA            0040bdc8     gameInit.obj
+ 0003:00000dcc       ?iACardTime@@3PAHA         0040bdcc     gameInit.obj
+ 0003:00000dec       ?iAMapLife@@3PAHA          0040bdec     gameInit.obj
+ 0003:00000e64       ?iChomperTmp@@3HA          0040be64     hitDeal.obj
+ 0003:00000e68       ?iSquashTmp@@3HA           0040be68     hitDeal.obj
+ 0003:00000e6c       ?iPoleVaultingTmp@@3HA     0040be6c     hitDeal.obj
+ 0003:00000e70       ?iAZomSpeed@@3PAHA         0040be70     keyDeal.obj
+ 0003:00000e88       ?iAZomLife@@3PAHA          0040be88     keyDeal.obj
+ 0003:00000ea0       ?iAZomName@@3PAHA          0040bea0     keyDeal.obj
+ 0003:00000eb8       ?cFollowFlg@@3DA           0040beb8     PlantVSZombie.obj
+ 0003:00000eb9       ?cShovelFlg@@3DA           0040beb9     PlantVSZombie.obj
+ 0003:00000ebc       ??_C@_0BK@IOGB@x?$DN?5?$CFd?5?5?0y?$DN?5?$CFd?5?5?0name?$DN?$CFd?5?6?$AA@ 0040bebc     PlantVSZombie.obj
+ 0003:00000ed8       ?cCardChoose@@3DA          0040bed8     siteConfirm.obj
+ 0003:00000edc       ?cACardisOK@@3PADA         0040bedc     siteConfirm.obj
+ 0003:00000ee4       ?cSunFlg@@3DA              0040bee4     timeDeal.obj
+ 0003:00000ee5       ?cRandom@@3DA              0040bee5     timeDeal.obj
+ 0003:00000ee6       ?cWinFlg@@3DA              0040bee6     timeDeal.obj
+ 0003:00000f08       __aexit_rtn                0040bf08     LIBC:wincrt0.obj
+ 0003:00000f0c       ___app_type                0040bf0c     LIBC:wincrt0.obj
+ 0003:00000f10       __amblksiz                 0040bf10     LIBC:heapinit.obj
+ 0003:00000f18       ___old_small_block_heap    0040bf18     LIBC:sbheap.obj
+ 0003:00002f3c       ___old_sbh_threshold       0040df3c     LIBC:sbheap.obj
+ 0003:00002f40       ___nullstring              0040df40     LIBC:output.obj
+ 0003:00002f44       ___wnullstring             0040df44     LIBC:output.obj
+ 0003:00002f48       __XcptActTab               0040df48     LIBC:winxfltr.obj
+ 0003:00002fc0       __First_FPE_Indx           0040dfc0     LIBC:winxfltr.obj
+ 0003:00002fc4       __Num_FPE                  0040dfc4     LIBC:winxfltr.obj
+ 0003:00002fc8       __XcptActTabCount          0040dfc8     LIBC:winxfltr.obj
+ 0003:00002fcc       __fpecode                  0040dfcc     LIBC:winxfltr.obj
+ 0003:00002fd0       ___badioinfo               0040dfd0     LIBC:ioinit.obj
+ 0003:00002fd8       __NLG_Destination          0040dfd8     LIBC:exsup.obj
+ 0003:00003080       __iob                      0040e080     LIBC:_file.obj
+ 0003:00003300       __cfltcvt_tab              0040e300     LIBC:cmiscdat.obj
+ 0003:00003318       __pctype                   0040e318     LIBC:ctype.obj
+ 0003:0000331c       __pwctype                  0040e31c     LIBC:ctype.obj
+ 0003:00003320       __ctype                    0040e320     LIBC:ctype.obj
+ 0003:00003630       ___mb_cur_max              0040e630     LIBC:nlsdata1.obj
+ 0003:00003634       ___decimal_point           0040e634     LIBC:nlsdata1.obj
+ 0003:00003638       ___decimal_point_length    0040e638     LIBC:nlsdata1.obj
+ 0003:000037a8       ?bmpInfo@@3UtagBITMAP@@A   0040e7a8     bitmapLoad.obj
+ 0003:000037c0       ?hBmpExit@@3PAUHBITMAP__@@A 0040e7c0     bitmapLoad.obj
+ 0003:000037c4       ?hBmpReplay@@3PAUHBITMAP__@@A 0040e7c4     bitmapLoad.obj
+ 0003:000037c8       ?hBmpPlantWin@@3PAUHBITMAP__@@A 0040e7c8     bitmapLoad.obj
+ 0003:000037cc       ?hBmpZomWin@@3PAUHBITMAP__@@A 0040e7cc     bitmapLoad.obj
+ 0003:000037d0       ?hBmpNewspaperZombieDie@@3PAUHBITMAP__@@A 0040e7d0     bitmapLoad.obj
+ 0003:000037d4       ?hBmpPoleVaultingZombieDie@@3PAUHBITMAP__@@A 0040e7d4     bitmapLoad.obj
+ 0003:000037d8       ?hBmpPoleVaultingZombieJump@@3PAUHBITMAP__@@A 0040e7d8     bitmapLoad.obj
+ 0003:000037dc       ?hBmpBoom@@3PAUHBITMAP__@@A 0040e7dc     bitmapLoad.obj
+ 0003:000037e0       ?hBmpBoomDie@@3PAUHBITMAP__@@A 0040e7e0     bitmapLoad.obj
+ 0003:000037e4       ?hBmpJalapenoAttack@@3PAUHBITMAP__@@A 0040e7e4     bitmapLoad.obj
+ 0003:000037e8       ?hBmpSquashAttack@@3PAUHBITMAP__@@A 0040e7e8     bitmapLoad.obj
+ 0003:000037ec       ?hBmpChomperAttack@@3PAUHBITMAP__@@A 0040e7ec     bitmapLoad.obj
+ 0003:000037f0       ?hBmpZombieDie@@3PAUHBITMAP__@@A 0040e7f0     bitmapLoad.obj
+ 0003:000037f4       ?hBmpPeaBulletHit@@3PAUHBITMAP__@@A 0040e7f4     bitmapLoad.obj
+ 0003:000037f8       ?hBmpBullet@@3PAUHBITMAP__@@A 0040e7f8     bitmapLoad.obj
+ 0003:000037fc       ?hBmpTombstone@@3PAPAUHBITMAP__@@A 0040e7fc     bitmapLoad.obj
+ 0003:00003804       ?hBmpTraget@@3PAPAUHBITMAP__@@A 0040e804     bitmapLoad.obj
+ 0003:0000380c       ?hBmpLawnMower@@3PAUHBITMAP__@@A 0040e80c     bitmapLoad.obj
+ 0003:00003810       ?hBmpCursorCard@@3PAUHBITMAP__@@A 0040e810     bitmapLoad.obj
+ 0003:00003814       ?hBmpZomBack@@3PAUHBITMAP__@@A 0040e814     bitmapLoad.obj
+ 0003:00003818       ?hBmpCardZom@@3PAPAUHBITMAP__@@A 0040e818     bitmapLoad.obj
+ 0003:00003850       ?hBmpCard@@3PAPAUHBITMAP__@@A 0040e850     bitmapLoad.obj
+ 0003:00003890       ?hBmpShovelBack@@3PAUHBITMAP__@@A 0040e890     bitmapLoad.obj
+ 0003:00003894       ?hBmpShovel@@3PAUHBITMAP__@@A 0040e894     bitmapLoad.obj
+ 0003:00003898       ?hBmpPlan@@3PAUHBITMAP__@@A 0040e898     bitmapLoad.obj
+ 0003:0000389c       ?hBmpSun@@3PAUHBITMAP__@@A 0040e89c     bitmapLoad.obj
+ 0003:000038a0       ?hBmpBackground@@3PAUHBITMAP__@@A 0040e8a0     bitmapLoad.obj
+ 0003:000038a4       ?hBmpGame@@3PAUHBITMAP__@@A 0040e8a4     bitmapLoad.obj
+ 0003:000038a8       ?hwndWindow@@3PAUHWND__@@A 0040e8a8     bitmapLoad.obj
+ 0003:000038ac       ?hdcImageDraw@@3PAUHDC__@@A 0040e8ac     bitmapLoad.obj
+ 0003:000038b0       ?hdcImageStore@@3PAUHDC__@@A 0040e8b0     bitmapLoad.obj
+ 0003:000038b4       ?cMenuSelecte@@3DA         0040e8b4     bitmapLoad.obj
+ 0003:000038b8       ?_qBulletKill@@3PAU__CARTOON@@A 0040e8b8     dieDeal.obj
+ 0003:000038bc       ?_qChompertKill@@3PAU__CARTOON@@A 0040e8bc     dieDeal.obj
+ 0003:000038c0       ?_qSquashKill@@3PAU__CARTOON@@A 0040e8c0     dieDeal.obj
+ 0003:000038c4       ?_qJalapenoKill@@3PAU__CARTOON@@A 0040e8c4     dieDeal.obj
+ 0003:000038c8       ?_qBoomKill@@3PAU__CARTOON@@A 0040e8c8     dieDeal.obj
+ 0003:000038cc       ?_qPoleVaultingZombieJump@@3PAU__CARTOON@@A 0040e8cc     dieDeal.obj
+ 0003:000038d0       ?_qPoleVaultingZombieDie@@3PAU__CARTOON@@A 0040e8d0     dieDeal.obj
+ 0003:000038d4       ?_qNewspaperZombieDie@@3PAU__CARTOON@@A 0040e8d4     dieDeal.obj
+ 0003:000038d8       ?iFollowXpos@@3HA          0040e8d8     gameDraw.obj
+ 0003:000038dc       ?iFollowYpos@@3HA          0040e8dc     gameDraw.obj
+ 0003:000038e0       ?iPointerXpos@@3HA         0040e8e0     gameDraw.obj
+ 0003:000038e4       ?iPointerYpos@@3HA         0040e8e4     gameDraw.obj
+ 0003:000038e8       ?_TWOBULLET@@3PAU__BULLETNATURE@@A 0040e8e8     gameInit.obj
+ 0003:00003b40       ?_BULLET@@3PAU__BULLETNATURE@@A 0040eb40     gameInit.obj
+ 0003:00003d98       ?_TARGET@@3PAU__TARGETNATURE@@A 0040ed98     gameInit.obj
+ 0003:00003de8       ?_LAWNMOVER@@3PAU__LAWNMOVERNATURE@@A 0040ede8     gameInit.obj
+ 0003:00003e28       ?_ZOMBIE@@3PAU__ZOMBIENATURE@@A 0040ee28     gameInit.obj
+ 0003:00013828       ?_CARDZOM@@3PAU__CARDNATURE@@A 0041e828     gameInit.obj
+ 0003:00013908       ?_CARD@@3PAU__CARDNATURE@@A 0041e908     gameInit.obj
+ 0003:00013a08       ?_MAPZOM@@3PAY02U__MAPNATURE@@A 0041ea08     gameInit.obj
+ 0003:00013bb0       ?_MAP@@3PAY08U__MAPNATURE@@A 0041ebb0     gameInit.obj
+ 0003:0001409c       ?iPeaShooterCnt@@3HA       0041f09c     gameInit.obj
+ 0003:000140a0       ?iZomSum@@3HA              0041f0a0     gameInit.obj
+ 0003:000140a4       ?iCursorCardIndex@@3HA     0041f0a4     gameInit.obj
+ 0003:000140a8       ?cZomChoose@@3DA           0041f0a8     keyDeal.obj
+ 0003:000145b0       ?iATest@@3PAHA             0041f5b0     PlantVSZombie.obj
+ 0003:00014740       ?iYpos@@3HA                0041f740     PlantVSZombie.obj
+ 0003:00014744       ?iXpos@@3HA                0041f744     PlantVSZombie.obj
+ 0003:00014748       ?imageGif@@3PAPAVImage@Gdiplus@@A 0041f748     PlantVSZombie.obj
+ 0003:000147bc       ?hInstGame@@3PAUHINSTANCE__@@A 0041f7bc     PlantVSZombie.obj
+ 0003:000147c0       ?szWindowClass@@3PADA      0041f7c0     PlantVSZombie.obj
+ 0003:00014824       ?szTitle@@3PADA            0041f824     PlantVSZombie.obj
+ 0003:00014888       ?hInst@@3PAUHINSTANCE__@@A 0041f888     PlantVSZombie.obj
+ 0003:0001488c       ?handleOutput@@3PAXA       0041f88c     PlantVSZombie.obj
+ 0003:00014890       ?flg@@3DA                  0041f890     PlantVSZombie.obj
+ 0003:000148d0       ?iRandomXpos@@3HA          0041f8d0     timeDeal.obj
+ 0003:000148d4       ?iRandomYpos@@3HA          0041f8d4     timeDeal.obj
+ 0003:000148d8       ?iZomCnt@@3HA              0041f8d8     timeDeal.obj
+ 0003:00014914       __aenvptr                  0041f914     LIBC:wincrt0.obj
+ 0003:00014918       __wenvptr                  0041f918     LIBC:wincrt0.obj
+ 0003:0001491c       ___error_mode              0041f91c     LIBC:wincrt0.obj
+ 0003:00014920       __newmode                  0041f920     LIBC:_newmode.obj
+ 0003:00014924       ?_pnhHeap@@3P6AHI@ZA       0041f924     LIBC:handler.obj
+ 0003:0001492c       _errno                     0041f92c     LIBC:crt0dat.obj
+ 0003:00014930       __doserrno                 0041f930     LIBC:crt0dat.obj
+ 0003:00014934       __umaskval                 0041f934     LIBC:crt0dat.obj
+ 0003:00014938       __osver                    0041f938     LIBC:crt0dat.obj
+ 0003:0001493c       __winver                   0041f93c     LIBC:crt0dat.obj
+ 0003:00014940       __winmajor                 0041f940     LIBC:crt0dat.obj
+ 0003:00014944       __winminor                 0041f944     LIBC:crt0dat.obj
+ 0003:00014948       ___argc                    0041f948     LIBC:crt0dat.obj
+ 0003:0001494c       ___argv                    0041f94c     LIBC:crt0dat.obj
+ 0003:00014950       ___wargv                   0041f950     LIBC:crt0dat.obj
+ 0003:00014954       __environ                  0041f954     LIBC:crt0dat.obj
+ 0003:00014958       ___initenv                 0041f958     LIBC:crt0dat.obj
+ 0003:0001495c       __wenviron                 0041f95c     LIBC:crt0dat.obj
+ 0003:00014960       ___winitenv                0041f960     LIBC:crt0dat.obj
+ 0003:00014964       __pgmptr                   0041f964     LIBC:crt0dat.obj
+ 0003:00014968       __wpgmptr                  0041f968     LIBC:crt0dat.obj
+ 0003:0001496c       __exitflag                 0041f96c     LIBC:crt0dat.obj
+ 0003:00014970       __C_Termination_Done       0041f970     LIBC:crt0dat.obj
+ 0003:00014974       __C_Exit_Done              0041f974     LIBC:crt0dat.obj
+ 0003:00014978       __pxcptinfoptrs            0041f978     LIBC:winxfltr.obj
+ 0003:00014a84       __adbgmsg                  0041fa84     LIBC:crt0msg.obj
+ 0003:00014a88       __cflush                   0041fa88     LIBC:_file.obj
+ 0003:00014a9c       ___lc_handle               0041fa9c     LIBC:nlsdata2.obj
+ 0003:00014ab4       ___lc_codepage             0041fab4     LIBC:nlsdata2.obj
+ 0003:00014ab8       ___lc_collate_cp           0041fab8     LIBC:nlsdata2.obj
+ 0003:00014ac4       ___mbcodepage              0041fac4     <common>
+ 0003:00014ad0       ___mbulinfo                0041fad0     <common>
+ 0003:00014adc       ___ismbcodepage            0041fadc     <common>
+ 0003:00014ae0       __mbcasemap                0041fae0     <common>
+ 0003:00014be0       __mbctype                  0041fbe0     <common>
+ 0003:00014ce4       ___mblcid                  0041fce4     <common>
+ 0003:00014ce8       ___piob                    0041fce8     <common>
+ 0003:00014d00       __bufin                    0041fd00     <common>
+ 0003:00015d00       __nstream                  00420d00     <common>
+ 0003:00015d20       ___pioinfo                 00420d20     <common>
+ 0003:00015e20       __nhandle                  00420e20     <common>
+ 0003:00015e24       ___env_initialized         00420e24     <common>
+ 0003:00015e28       ___mbctype_initialized     00420e28     <common>
+ 0003:00015e2c       ___onexitend               00420e2c     <common>
+ 0003:00015e30       ___onexitbegin             00420e30     <common>
+ 0003:00015e34       __FPinit                   00420e34     <common>
+ 0003:00015e38       ___sbh_sizeHeaderList      00420e38     <common>
+ 0003:00015e3c       ___sbh_indGroupDefer       00420e3c     <common>
+ 0003:00015e40       ___sbh_pHeaderScan         00420e40     <common>
+ 0003:00015e44       ___sbh_pHeaderDefer        00420e44     <common>
+ 0003:00015e48       ___sbh_cntHeaderList       00420e48     <common>
+ 0003:00015e4c       ___sbh_pHeaderList         00420e4c     <common>
+ 0003:00015e50       ___sbh_threshold           00420e50     <common>
+ 0003:00015e54       __crtheap                  00420e54     <common>
+ 0003:00015e58       ___active_heap             00420e58     <common>
+ 0003:00015e5c       __acmdln                   00420e5c     <common>
+ 0004:00000000       __IMPORT_DESCRIPTOR_MSIMG32 00421000     msimg32:MSIMG32.dll
+ 0004:00000014       __IMPORT_DESCRIPTOR_gdiplus 00421014     gdiplus:gdiplus.dll
+ 0004:00000028       __IMPORT_DESCRIPTOR_KERNEL32 00421028     kernel32:KERNEL32.dll
+ 0004:0000003c       __IMPORT_DESCRIPTOR_USER32 0042103c     user32:USER32.dll
+ 0004:00000050       __IMPORT_DESCRIPTOR_GDI32  00421050     gdi32:GDI32.dll
+ 0004:00000064       __NULL_IMPORT_DESCRIPTOR   00421064     msimg32:MSIMG32.dll
+ 0004:00000210       __imp__BitBlt@36           00421210     gdi32:GDI32.dll
+ 0004:00000214       __imp__CreateFontIndirectA@4 00421214     gdi32:GDI32.dll
+ 0004:00000218       __imp__SetTextColor@8      00421218     gdi32:GDI32.dll
+ 0004:0000021c       __imp__SetBkColor@8        0042121c     gdi32:GDI32.dll
+ 0004:00000220       __imp__SetBkMode@8         00421220     gdi32:GDI32.dll
+ 0004:00000224       __imp__TextOutA@20         00421224     gdi32:GDI32.dll
+ 0004:00000228       __imp__DeleteObject@4      00421228     gdi32:GDI32.dll
+ 0004:0000022c       __imp__SelectObject@8      0042122c     gdi32:GDI32.dll
+ 0004:00000230       __imp__GetObjectA@12       00421230     gdi32:GDI32.dll
+ 0004:00000234       __imp__CreateCompatibleDC@4 00421234     gdi32:GDI32.dll
+ 0004:00000238       __imp__CreateCompatibleBitmap@12 00421238     gdi32:GDI32.dll
+ 0004:0000023c       \177GDI32_NULL_THUNK_DATA  0042123c     gdi32:GDI32.dll
+ 0004:00000240       __imp__GetCPInfo@8         00421240     kernel32:KERNEL32.dll
+ 0004:00000244       __imp__SetFilePointer@16   00421244     kernel32:KERNEL32.dll
+ 0004:00000248       __imp__GetLastError@0      00421248     kernel32:KERNEL32.dll
+ 0004:0000024c       __imp__WriteFile@20        0042124c     kernel32:KERNEL32.dll
+ 0004:00000250       __imp__RtlUnwind@16        00421250     kernel32:KERNEL32.dll
+ 0004:00000254       __imp__GetFileType@4       00421254     kernel32:KERNEL32.dll
+ 0004:00000258       __imp__WriteConsoleA@20    00421258     kernel32:KERNEL32.dll
+ 0004:0000025c       __imp__GetTickCount@0      0042125c     kernel32:KERNEL32.dll
+ 0004:00000260       __imp__GetStdHandle@4      00421260     kernel32:KERNEL32.dll
+ 0004:00000264       __imp__SetHandleCount@4    00421264     kernel32:KERNEL32.dll
+ 0004:00000268       __imp__GetEnvironmentStringsW@0 00421268     kernel32:KERNEL32.dll
+ 0004:0000026c       __imp__GetEnvironmentStrings@0 0042126c     kernel32:KERNEL32.dll
+ 0004:00000270       __imp__WideCharToMultiByte@32 00421270     kernel32:KERNEL32.dll
+ 0004:00000274       __imp__FreeEnvironmentStringsW@4 00421274     kernel32:KERNEL32.dll
+ 0004:00000278       __imp__FreeEnvironmentStringsA@4 00421278     kernel32:KERNEL32.dll
+ 0004:0000027c       __imp__UnhandledExceptionFilter@4 0042127c     kernel32:KERNEL32.dll
+ 0004:00000280       __imp__GetACP@0            00421280     kernel32:KERNEL32.dll
+ 0004:00000284       __imp__TerminateProcess@8  00421284     kernel32:KERNEL32.dll
+ 0004:00000288       __imp__HeapReAlloc@16      00421288     kernel32:KERNEL32.dll
+ 0004:0000028c       __imp__VirtualAlloc@16     0042128c     kernel32:KERNEL32.dll
+ 0004:00000290       __imp__HeapFree@12         00421290     kernel32:KERNEL32.dll
+ 0004:00000294       __imp__VirtualFree@12      00421294     kernel32:KERNEL32.dll
+ 0004:00000298       __imp__HeapCreate@12       00421298     kernel32:KERNEL32.dll
+ 0004:0000029c       __imp__HeapDestroy@4       0042129c     kernel32:KERNEL32.dll
+ 0004:000002a0       __imp__GetVersionExA@4     004212a0     kernel32:KERNEL32.dll
+ 0004:000002a4       __imp__GetEnvironmentVariableA@12 004212a4     kernel32:KERNEL32.dll
+ 0004:000002a8       __imp__GetModuleFileNameA@12 004212a8     kernel32:KERNEL32.dll
+ 0004:000002ac       __imp__ExitProcess@4       004212ac     kernel32:KERNEL32.dll
+ 0004:000002b0       __imp__GetVersion@0        004212b0     kernel32:KERNEL32.dll
+ 0004:000002b4       __imp__GetCommandLineA@0   004212b4     kernel32:KERNEL32.dll
+ 0004:000002b8       __imp__GetStartupInfoA@4   004212b8     kernel32:KERNEL32.dll
+ 0004:000002bc       __imp__GetModuleHandleA@4  004212bc     kernel32:KERNEL32.dll
+ 0004:000002c0       __imp__HeapAlloc@12        004212c0     kernel32:KERNEL32.dll
+ 0004:000002c4       __imp__GetOEMCP@0          004212c4     kernel32:KERNEL32.dll
+ 0004:000002c8       __imp__GetProcAddress@8    004212c8     kernel32:KERNEL32.dll
+ 0004:000002cc       __imp__LoadLibraryA@4      004212cc     kernel32:KERNEL32.dll
+ 0004:000002d0       __imp__SetStdHandle@8      004212d0     kernel32:KERNEL32.dll
+ 0004:000002d4       __imp__CloseHandle@4       004212d4     kernel32:KERNEL32.dll
+ 0004:000002d8       __imp__MultiByteToWideChar@24 004212d8     kernel32:KERNEL32.dll
+ 0004:000002dc       __imp__LCMapStringA@24     004212dc     kernel32:KERNEL32.dll
+ 0004:000002e0       __imp__LCMapStringW@24     004212e0     kernel32:KERNEL32.dll
+ 0004:000002e4       __imp__GetStringTypeA@20   004212e4     kernel32:KERNEL32.dll
+ 0004:000002e8       __imp__GetStringTypeW@16   004212e8     kernel32:KERNEL32.dll
+ 0004:000002ec       __imp__FlushFileBuffers@4  004212ec     kernel32:KERNEL32.dll
+ 0004:000002f0       __imp__GetCurrentProcess@0 004212f0     kernel32:KERNEL32.dll
+ 0004:000002f4       \177KERNEL32_NULL_THUNK_DATA 004212f4     kernel32:KERNEL32.dll
+ 0004:000002f8       __imp__TransparentBlt@44   004212f8     msimg32:MSIMG32.dll
+ 0004:000002fc       \177MSIMG32_NULL_THUNK_DATA 004212fc     msimg32:MSIMG32.dll
+ 0004:00000300       __imp__SetTimer@16         00421300     user32:USER32.dll
+ 0004:00000304       __imp__DestroyWindow@4     00421304     user32:USER32.dll
+ 0004:00000308       __imp__DialogBoxParamA@20  00421308     user32:USER32.dll
+ 0004:0000030c       __imp__KillTimer@8         0042130c     user32:USER32.dll
+ 0004:00000310       __imp__InvalidateRect@12   00421310     user32:USER32.dll
+ 0004:00000314       __imp__DefWindowProcA@16   00421314     user32:USER32.dll
+ 0004:00000318       __imp__CreateWindowExA@48  00421318     user32:USER32.dll
+ 0004:0000031c       __imp__ShowWindow@8        0042131c     user32:USER32.dll
+ 0004:00000320       __imp__UpdateWindow@4      00421320     user32:USER32.dll
+ 0004:00000324       __imp__LoadIconA@8         00421324     user32:USER32.dll
+ 0004:00000328       __imp__LoadCursorA@8       00421328     user32:USER32.dll
+ 0004:0000032c       __imp__EndDialog@8         0042132c     user32:USER32.dll
+ 0004:00000330       __imp__LoadStringA@16      00421330     user32:USER32.dll
+ 0004:00000334       __imp__LoadAcceleratorsA@8 00421334     user32:USER32.dll
+ 0004:00000338       __imp__GetMessageA@16      00421338     user32:USER32.dll
+ 0004:0000033c       __imp__TranslateAcceleratorA@12 0042133c     user32:USER32.dll
+ 0004:00000340       __imp__TranslateMessage@4  00421340     user32:USER32.dll
+ 0004:00000344       __imp__DispatchMessageA@4  00421344     user32:USER32.dll
+ 0004:00000348       __imp__PostQuitMessage@4   00421348     user32:USER32.dll
+ 0004:0000034c       __imp__BeginPaint@8        0042134c     user32:USER32.dll
+ 0004:00000350       __imp__GetDC@4             00421350     user32:USER32.dll
+ 0004:00000354       __imp__LoadImageA@24       00421354     user32:USER32.dll
+ 0004:00000358       __imp__ReleaseDC@8         00421358     user32:USER32.dll
+ 0004:0000035c       __imp__EndPaint@8          0042135c     user32:USER32.dll
+ 0004:00000360       __imp__RegisterClassExA@4  00421360     user32:USER32.dll
+ 0004:00000364       \177USER32_NULL_THUNK_DATA 00421364     user32:USER32.dll
+ 0004:00000368       __imp__GdipImageSelectActiveFrame@12 00421368     gdiplus:gdiplus.dll
+ 0004:0000036c       __imp__GdipImageGetFrameDimensionsCount@8 0042136c     gdiplus:gdiplus.dll
+ 0004:00000370       __imp__GdipImageGetFrameDimensionsList@12 00421370     gdiplus:gdiplus.dll
+ 0004:00000374       __imp__GdipImageGetFrameCount@12 00421374     gdiplus:gdiplus.dll
+ 0004:00000378       __imp__GdipGetPropertyItemSize@12 00421378     gdiplus:gdiplus.dll
+ 0004:0000037c       __imp__GdipGetPropertyItem@16 0042137c     gdiplus:gdiplus.dll
+ 0004:00000380       __imp__GdipCreateFromHDC@8 00421380     gdiplus:gdiplus.dll
+ 0004:00000384       __imp__GdipDrawImageI@16   00421384     gdiplus:gdiplus.dll
+ 0004:00000388       __imp__GdipDeleteGraphics@4 00421388     gdiplus:gdiplus.dll
+ 0004:0000038c       __imp__GdipCloneImage@8    0042138c     gdiplus:gdiplus.dll
+ 0004:00000390       __imp__GdipDisposeImage@4  00421390     gdiplus:gdiplus.dll
+ 0004:00000394       __imp__GdipFree@4          00421394     gdiplus:gdiplus.dll
+ 0004:00000398       __imp__GdipAlloc@4         00421398     gdiplus:gdiplus.dll
+ 0004:0000039c       __imp__GdipLoadImageFromFile@8 0042139c     gdiplus:gdiplus.dll
+ 0004:000003a0       __imp__GdiplusStartup@12   004213a0     gdiplus:gdiplus.dll
+ 0004:000003a4       \177gdiplus_NULL_THUNK_DATA 004213a4     gdiplus:gdiplus.dll
+
+ entry point at        0001:000042d5
+
+ Static symbols
+
+ 0001:000087c0       _strncnt                   004097c0 f   LIBC:a_map.obj
+ 0001:00008526       _flsall                    00409526 f   LIBC:fflush.obj
+ 0001:00007cd0       LeadUp1                    00408cd0 f   LIBC:memcpy.obj
+ 0001:00007cfc       LeadUp2                    00408cfc f   LIBC:memcpy.obj
+ 0001:00007d20       LeadUp3                    00408d20 f   LIBC:memcpy.obj
+ 0001:00007d9f       UnwindUp0                  00408d9f f   LIBC:memcpy.obj
+ 0001:00007d8c       UnwindUp1                  00408d8c f   LIBC:memcpy.obj
+ 0001:00007d84       UnwindUp2                  00408d84 f   LIBC:memcpy.obj
+ 0001:00007d7c       UnwindUp3                  00408d7c f   LIBC:memcpy.obj
+ 0001:00007d74       UnwindUp4                  00408d74 f   LIBC:memcpy.obj
+ 0001:00007d6c       UnwindUp5                  00408d6c f   LIBC:memcpy.obj
+ 0001:00007d64       UnwindUp6                  00408d64 f   LIBC:memcpy.obj
+ 0001:00007d5c       UnwindUp7                  00408d5c f   LIBC:memcpy.obj
+ 0001:00007db8       TrailUp0                   00408db8 f   LIBC:memcpy.obj
+ 0001:00007dc0       TrailUp1                   00408dc0 f   LIBC:memcpy.obj
+ 0001:00007dcc       TrailUp2                   00408dcc f   LIBC:memcpy.obj
+ 0001:00007de0       TrailUp3                   00408de0 f   LIBC:memcpy.obj
+ 0001:00007e58       LeadDown1                  00408e58 f   LIBC:memcpy.obj
+ 0001:00007e78       LeadDown2                  00408e78 f   LIBC:memcpy.obj
+ 0001:00007ea0       LeadDown3                  00408ea0 f   LIBC:memcpy.obj
+ 0001:00007ef4       UnwindDown7                00408ef4 f   LIBC:memcpy.obj
+ 0001:00007efc       UnwindDown6                00408efc f   LIBC:memcpy.obj
+ 0001:00007f04       UnwindDown5                00408f04 f   LIBC:memcpy.obj
+ 0001:00007f0c       UnwindDown4                00408f0c f   LIBC:memcpy.obj
+ 0001:00007f14       UnwindDown3                00408f14 f   LIBC:memcpy.obj
+ 0001:00007f1c       UnwindDown2                00408f1c f   LIBC:memcpy.obj
+ 0001:00007f24       UnwindDown1                00408f24 f   LIBC:memcpy.obj
+ 0001:00007f37       UnwindDown0                00408f37 f   LIBC:memcpy.obj
+ 0001:00007f50       TrailDown0                 00408f50 f   LIBC:memcpy.obj
+ 0001:00007f58       TrailDown1                 00408f58 f   LIBC:memcpy.obj
+ 0001:00007f68       TrailDown2                 00408f68 f   LIBC:memcpy.obj
+ 0001:00007f7c       TrailDown3                 00408f7c f   LIBC:memcpy.obj
+ 0001:00007920       _getSystemCP               00408920 f   LIBC:mbctype.obj
+ 0001:0000796a       _CPtoLCID                  0040896a f   LIBC:mbctype.obj
+ 0001:0000799d       _setSBCS                   0040899d f   LIBC:mbctype.obj
+ 0001:000079c6       _setSBUpLow                004089c6 f   LIBC:mbctype.obj
+ 0001:00007756       _x_ismbbtype               00408756 f   LIBC:ismbbyte.obj
+ 0001:00006ed0       LeadUp1                    00407ed0 f   LIBC:memmove.obj
+ 0001:00006efc       LeadUp2                    00407efc f   LIBC:memmove.obj
+ 0001:00006f20       LeadUp3                    00407f20 f   LIBC:memmove.obj
+ 0001:00006f9f       UnwindUp0                  00407f9f f   LIBC:memmove.obj
+ 0001:00006f8c       UnwindUp1                  00407f8c f   LIBC:memmove.obj
+ 0001:00006f84       UnwindUp2                  00407f84 f   LIBC:memmove.obj
+ 0001:00006f7c       UnwindUp3                  00407f7c f   LIBC:memmove.obj
+ 0001:00006f74       UnwindUp4                  00407f74 f   LIBC:memmove.obj
+ 0001:00006f6c       UnwindUp5                  00407f6c f   LIBC:memmove.obj
+ 0001:00006f64       UnwindUp6                  00407f64 f   LIBC:memmove.obj
+ 0001:00006f5c       UnwindUp7                  00407f5c f   LIBC:memmove.obj
+ 0001:00006fb8       TrailUp0                   00407fb8 f   LIBC:memmove.obj
+ 0001:00006fc0       TrailUp1                   00407fc0 f   LIBC:memmove.obj
+ 0001:00006fcc       TrailUp2                   00407fcc f   LIBC:memmove.obj
+ 0001:00006fe0       TrailUp3                   00407fe0 f   LIBC:memmove.obj
+ 0001:00007058       LeadDown1                  00408058 f   LIBC:memmove.obj
+ 0001:00007078       LeadDown2                  00408078 f   LIBC:memmove.obj
+ 0001:000070a0       LeadDown3                  004080a0 f   LIBC:memmove.obj
+ 0001:000070f4       UnwindDown7                004080f4 f   LIBC:memmove.obj
+ 0001:000070fc       UnwindDown6                004080fc f   LIBC:memmove.obj
+ 0001:00007104       UnwindDown5                00408104 f   LIBC:memmove.obj
+ 0001:0000710c       UnwindDown4                0040810c f   LIBC:memmove.obj
+ 0001:00007114       UnwindDown3                00408114 f   LIBC:memmove.obj
+ 0001:0000711c       UnwindDown2                0040811c f   LIBC:memmove.obj
+ 0001:00007124       UnwindDown1                00408124 f   LIBC:memmove.obj
+ 0001:00007137       UnwindDown0                00408137 f   LIBC:memmove.obj
+ 0001:00007150       TrailDown0                 00408150 f   LIBC:memmove.obj
+ 0001:00007158       TrailDown1                 00408158 f   LIBC:memmove.obj
+ 0001:00007168       TrailDown2                 00408168 f   LIBC:memmove.obj
+ 0001:0000717c       TrailDown3                 0040817c f   LIBC:memmove.obj
+ 0001:00006a8f       _strtoxl                   00407a8f f   LIBC:strtol.obj
+ 0001:00006734       _gu_return                 00407734 f   LIBC:exsup.obj
+ 0001:0000673c       __unwind_handler           0040773c f   LIBC:exsup.obj
+ 0001:0000628b       _parse_cmdline             0040728b f   LIBC:stdargv.obj
+ 0001:0000609e       _xcptlookup                0040709e f   LIBC:winxfltr.obj
+ 0001:00005eaa       _doexit                    00406eaa f   LIBC:crt0dat.obj
+ 0001:00005f43       __initterm                 00406f43 f   LIBC:crt0dat.obj
+ 0001:00005d29       _write_char                00406d29 f   LIBC:output.obj
+ 0001:00005d5e       _write_multi_char          00406d5e f   LIBC:output.obj
+ 0001:00005d8f       _write_string              00406d8f f   LIBC:output.obj
+ 0001:00005dc7       _get_int_arg               00406dc7 f   LIBC:output.obj
+ 0001:00005dd4       _get_int64_arg             00406dd4 f   LIBC:output.obj
+ 0001:00005de4       _get_short_arg             00406de4 f   LIBC:output.obj
+ 0001:000043f0       _fast_error_exit           004053f0 f   LIBC:wincrt0.obj
+
+FIXUPS: 539f 9 11 e e 9 1c 9 fffffecb fffffff3 ffffffb5 1d ffffff12 13
+FIXUPS: 51cc 25 32 12b5 b 29 38 1b fffff405 106 f 4c2 157 b2 51 4f b6 80
+FIXUPS: 5465 8b 56 e 24 1b 32 14 d fffffd4a c 9 10 a 5 5 12 1ab2 13 fffff841
+FIXUPS: 66c1 9d 19 68 8a d 2e 25 74 80 be 3b 18 c 15 8 8f 12 98 16 1c 27
+FIXUPS: 6ca0 1e 18 11 60 32 37 7ce e 82 fffffece 23 44 13 fffffcaf 35 f
+FIXUPS: 7259 17 fffffed7 19 14 14 12 f e 9 17 ffffff14 22 fffffe58 ffffff0c
+FIXUPS: 6e80 11 11 73 11 fffffee4 c 16e1 58 e fffffeee fffffea1 107 fffffe33
+FIXUPS: 8264 fffffb7b fffffca8 30 bd 2b 1c fffffd4e 16 8a 15 13 1a 14 d
+FIXUPS: 7a1d 12 16 19 fffffe11 d 11 2f 25 fffffe4f 1eee 7c b4 fffffe48
+FIXUPS: 9491 9 18 3c 32 34 1b fffffee2 19 ffffff52 21 2b 12 fffffe2f ffffff18
+FIXUPS: 91c4 fffff5d0 10c 3a 31 5 151 24 28 aa fffffbf7 fffffd7e 19 ffff94d7
+FIXUPS: 19dc 14 20 14 20 14 20 14 20 14 20 14 20 1ba d 2b e 7d94 ffffff6c
+FIXUPS: 9a2b 9 c 1e 12 ffffff40 ffffff9f 8 8 19 ffffff53 10 ffff7da1 20
+FIXUPS: 16b0 20 14 20 14 20 14 20 14 20 14 20 14 20 14 20 14 20 14 20 14
+FIXUPS: 18d8 14 20 14 20 14 20 14 20 13cb 20 20 21 23 20 8 5 5 5 ffffef19
+FIXUPS: 1d5f 72 a a a a a a a fffff72d 20 14 20 14 20 14 20 14 20 14 20
+FIXUPS: 27b3 37 1c 9 75 84 89 6e 4b 6c 56 4f 69 43 84 47 5 5 5 5 5 5 5
+FIXUPS: 2cfa 5 5 5 5 5 5 20 1d fffff54b 2d 14 41 32 2f 11 2d 2c 23 26 3b
+FIXUPS: 247b 4a 20 4f a 2f 1e 3c 24 29 1e 22 1e 24 34 6 2f a 32 4d b32
+FIXUPS: 3386 a 1d0 61 34 5f 7e eb 34 5 5 5 fffff991 5 5 5 5 5 5 5 5 5 ffffedaa
+FIXUPS: 1f9a 32 a5 67 c3 22 56 38 1b46 13 30 13 7e 46 30 27 e3 61 25 1a
+FIXUPS: 40a5 26 1d 20 1a 25 8d 34 8 f 2d 155 53 28 e 3b 6b 4d 6a fffff33c
+FIXUPS: 4dd4 1e0 73 6 6 6 6 6 6 6 5 e f f 11 f f e f 6 9 6 6 6 6 8 1d d
+FIXUPS: 512f ffffea70 b 20

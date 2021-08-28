@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PlantVSZombie - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP170.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/PlantVSZombie.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Administrator\×ÀÃæ\Ö²Îïvs½©Ê¬NP\gameInit.cpp"
+"C:\Documents and Settings\Administrator\×ÀÃæ\Ö²Îïvs½©Ê¬NP\hitDeal.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP170.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP171.tmp" with contents
+[
+msimg32.lib gdiplus.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /profile /machine:I386 /out:"Release/PlantVSZombie.exe" 
+".\Release\bitmapLoad.obj"
+".\Release\dieDeal.obj"
+".\Release\gameDraw.obj"
+".\Release\gameInit.obj"
+".\Release\hitDeal.obj"
+".\Release\keyDeal.obj"
+".\Release\PlantVSZombie.obj"
+".\Release\siteConfirm.obj"
+".\Release\StdAfx.obj"
+".\Release\timeDeal.obj"
+".\Release\PlantVSZombie.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP171.tmp"
+<h3>Output Window</h3>
+Compiling...
+gameInit.cpp
+hitDeal.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+PlantVSZombie.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

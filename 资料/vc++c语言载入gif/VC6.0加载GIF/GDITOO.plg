@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GDITOO - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/GDITOO.res" /d "NDEBUG" "C:\Documents and Settings\Administrator\桌面\植物vs僵尸NP\资料\vc++c语言载入gif\GDITOO\GDITOO.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1CB.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /profile /machine:I386 /out:"Release/GDITOO.exe" 
+".\Release\GDITOO.obj"
+".\Release\StdAfx.obj"
+".\Release\GDITOO.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1CB.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+GDITOO.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
